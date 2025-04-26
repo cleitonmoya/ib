@@ -110,9 +110,6 @@ for (i in 1:length(Theta_hidden)){
         alpha <- x+1/2
         beta <- n-x+1/2
 
-        # Amostra theta
-        theta <- rbeta(1, alpha, beta)
-
         # Calcula os intervalos de confiança
 
         # Jeffrey
